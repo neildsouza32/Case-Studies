@@ -47,8 +47,8 @@ Download both datasets from the links above and save them as:
 ### 3. Run the scripts
 
 ```bash
-python notebooks/run_aemo_models.py
-python notebooks/run_kaggle_models.py
+python notebooks/signals.py
+python notebooks/electricity.py
 ```
 
 Each script prints:
