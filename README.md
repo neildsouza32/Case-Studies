@@ -6,23 +6,7 @@ This repository contains the code, datasets, and analysis supporting my assignme
 
 Two machine learning models — **k-Nearest Neighbours (kNN) Regression** and a **Neural Network (MLP Regressor)** — were applied separately to two datasets related to electricity demand forecasting in the Australian National Electricity Market (NEM), to generate insights relevant to the target job role.
 
-## Repository Structure
 
-```
-.
-├── data/
-│   ├── signals_regional_load.csv          # AEMO regional load data (NSW, QLD, SA, TAS, VIC)
-│   └── electricity_demand_victoria.csv    # Kaggle: Victoria demand, price & weather data
-│
-├── notebooks/
-│   ├── run_aemo_models.py                 # kNN + MLP on AEMO regional load dataset
-│   └── run_kaggle_models.py               # kNN + MLP on Kaggle Victoria demand dataset
-│
-├── outputs/
-│   └── results_summary.md                 # Model performance metrics and feature importance
-│
-└── README.md
-```
 
 ## Datasets
 
@@ -90,4 +74,4 @@ This analysis was completed as part of a data science career portfolio assignmen
 - AEMO for publishing the original NEM market data.
 - [akxen/egrimod-nem-dataset](https://github.com/akxen/egrimod-nem-dataset) for the packaged regional load dataset.
 - Kaggle contributor *aramacus* for the Victoria electricity demand dataset.
-- AI tool Claude (Anthropic) was used for code drafting assistance — see Part B: Account of AI Use in the assignment submission for full disclosure.
+
